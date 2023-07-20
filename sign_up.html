@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        form{
+            width: 400px;
+            height: 400px;
+            color: black;
+            margin-left: 50px;
+            border-radius: 10%;
+            text-align: center;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 3px 2px black;
+            background-color: beige;
+        }
+        button{
+            margin: 15px 17px;
+            padding: 15px 20px;
+            background-color: black;
+            color: white;
+        }
+        button:hover{
+            background-color: green;
+        }
+        label{
+            padding: 10px;
+            margin: 10px;
+        }
+        #fname{
+            margin: 10px;
+        
+        }
+        #lname{
+            margin: 10px;
+        }
+        #DOB{
+            margin: 10px;
+        }
+        #number{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form >
+       <span>
+        <h2>sign up</h2>
+        <p>Create Account</p>
+        <!-- <label for="fname">First name :</label> -->
+        <span>First name</span>
+        <input type="text" id="fname" placeholder="First name" required>
+        <br> 
+        <!-- <label for="lname">Last name :</label> -->
+        <span>Last name</span>
+        <input type="text" id="lname" placeholder="last name">
+        <br>
+        <span>Number</span>
+        <input type="number" id="number" placeholder="1234567890" required>
+       </span>
+        <br>
+       <!-- <label for="DOB"> DOB :</label> -->
+       <span>DOB</span>
+        <input type="date" id="DOB" placeholder="DOB" required>
+        <br>
+        <!-- <label for="number">Number :</label> -->
+       <div>
+        <button>
+            next
+        </button>
+       </div>
+    </form>
+</body>
+</html>
